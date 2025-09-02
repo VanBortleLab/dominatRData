@@ -62,7 +62,7 @@
 
 #' ATAC-Seq Score for POL3 Genes Dataframe
 #'
-#' A list of tissues and the corresponding counts for RNA POL3 genes for each of them. Values are represented as the -log10(p-value)
+#' A list of tissues and the corresponding counts for RNA POL3 genes for each of them. Values represent a binary call on significance for accessibility. If the value is 1 the gene is accessible in the respective tissue.
 #'
 #' @format A dataframe with 9817 rows and 23 variables:
 #' \describe{
