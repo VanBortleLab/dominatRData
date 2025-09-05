@@ -3,14 +3,31 @@ Type: Package
 Title: Datasets for R Package dominatR 
 Version: 0.1.0
 Authors@R: c(
-    person(given = "Simon", family = "Lizarazo", role = c("aut", "cre"), email = "silizarazoch@gmail.com"),
-    person(given = "Ethan", family = "Chen", role = c("ctb"), email = "yitian7@illinois.edu"),
-    person(given = "Rajendra", family = "KC", role = c("ctb")),
-    person(given = "Kevin", family = "Van Bortle", 
-           role = c("aut", "cph"), email = "kvbortle@illinois.edu")
-           )
-Description: dominatR is an R package for quantifying and visualizing feature dominance in datasets.
-    dominatR makes use of entropy-based triangular projections and compositional comparison metrics.
+    person(
+    given = "Simon", 
+    family = "Lizarazo", 
+    role = c("aut", "cre"), 
+    email = "silizarazoch@gmail.com", 
+    comment = c(ORCID = "0009-0001-8974-6225")
+    ),
+    person(
+    given = "Ethan", 
+    family = "Chen", 
+    role = c("ctb"), 
+    email = "yitian7@illinois.edu"
+    ),
+    person(
+    given = "Rajendra", 
+    family = "K C", 
+    role = c("ctb")
+    ),
+    person(
+    given = "Kevin", 
+    family = "Van Bortle", 
+    role = c(ctb"), 
+    email = "kvbortle@illinois.edu")
+    )
+Description: dominatR is an R package for quantifying and visualizing feature dominance in datasets.dominatR makes use of entropy-based triangular projections and compositional comparison metrics.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
