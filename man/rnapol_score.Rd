@@ -19,9 +19,11 @@ A dataframe with 1061 rows and 7 variables:
 {Created by The VanBortle lab at UIUC to serve as an example}
 }
 \usage{
-rnapol_score
+data('rnapol_score')
 }
 \description{
 A subset of data obtained from CHIP-Seq Data for RNA Polymerase I, II and III. Values are represented as the -log10(p-value)
 }
-\keyword{datasets}
+\references{
+Rajendra K C et al., 2024 Molecular Cell
+}

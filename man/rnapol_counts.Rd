@@ -19,9 +19,11 @@ A dataframe with 1061 rows and 7 variables:
 {Created by The VanBortle lab at UIUC to serve as an example}
 }
 \usage{
-rnapol_counts
+data('rnapol_counts')
 }
 \description{
 A subset of data obtained from CHIP-Seq Data for RNA Polymerase I, II and III
 }
-\keyword{datasets}
+\references{
+Rajendra K C et al., 2024 Molecular Cell
+}

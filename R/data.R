@@ -1,7 +1,8 @@
 #' RNA Polymerase raw counts dataframe
 #'
-#' A subset of data obtained from CHIP-Seq Data for RNA Polymerase I, II and III
+#' A subset of data obtained from CHIP-Seq Data for RNA Polymerase I, II and III.
 #' @docType data
+#' @name rnapol_counts
 #' @format A dataframe with 1061 rows and 7 variables:
 #' \describe{
 #' \item{Chr}{Chromosome where the gene is located}
@@ -19,8 +20,10 @@ NULL
 
 #' RNA Polymerase score dataframe
 #'
-#' A subset of data obtained from CHIP-Seq Data for RNA Polymerase I, II and III. Values are represented as the -log10(p-value)
+#' A subset of data obtained from CHIP-Seq Data for RNA Polymerase I, II and III.
+#' Values are represented as the -log10(p-value)
 #' @docType data
+#' @name rnapol_score
 #' @format A dataframe with 1061 rows and 7 variables:
 #' \describe{
 #' \item{Chr}{Chromosome where the gene is located}
@@ -42,6 +45,7 @@ NULL
 #'
 #' A list of tissues and the corresponding counts for RNA POL3 genes for each of them.
 #' @docType data
+#' @name atac_tissue_counts
 #' @format A dataframe with 9817 rows and 26 variables:
 #' \describe{
 #' \item{core_type}{Category for genes based on their expression across tissues}
@@ -64,6 +68,7 @@ NULL
 #'
 #' A list of tissues and the corresponding counts for RNA POL3 genes for each of them. Values represent a binary call on significance for accessibility. If the value is 1 the gene is accessible in the respective tissue.
 #' @docType data
+#' @name atac_tissue_score
 #' @format A dataframe with 9817 rows and 23 variables:
 #' \describe{
 #' \item{core_type}{Category for genes based on their expression across tissues}

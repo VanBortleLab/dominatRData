@@ -1,7 +1,7 @@
 Package: dominatRData
 Type: Package
 Title: Datasets for R Package dominatR 
-Version: 0.1.0
+Version: 0.99.0
 Authors@R: c(
     person(
     given = "Simon", 
@@ -30,11 +30,15 @@ Authors@R: c(
 Description: dominatRData is a data package useful for showcasing dominatR examples. dominatR is an R package for quantifying and visualizing feature dominance in datasets. dominatR makes use of entropy-based triangular projections and compositional comparison metrics.
 License: MIT + file LICENSE
 Encoding: UTF-8
-biocViews: ExperimentData, ChIPSeqData, ATACSeqData
+biocViews: ExperimentData, ChIPSeqData
 LazyData: false
 URL: https://github.com/VanBortleLab/dominatRData
 BugReports: https://github.com/VanBortleLab/dominatRData/issues
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
-    R (>= 4.3.0)
+    R (>= 4.4.0)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
